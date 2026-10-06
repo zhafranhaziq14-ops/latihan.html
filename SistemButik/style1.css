@@ -1,0 +1,285 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f3;
+    color: #333;
+    
+}
+
+
+/* HEADER */
+header {
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    
+}
+
+
+/* LOGO */
+.logo-container {
+    background-color: #f1d5bd;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.logo-container h1 {
+    color: #6b4226;
+}
+
+
+/* NAVIGATION */
+nav {
+    background-color: #6b4226;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav h1 {
+    color: rgb(238, 235, 235);
+    margin-right: auto;
+}
+
+nav button {
+    background-color: #f1d5bd;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+nav button a {
+    text-decoration: none;
+    color: #6b4226;
+    font-weight: bold;
+}
+
+nav button:hover {
+    background-color: rgb(245, 244, 247);
+}
+
+/*
+
+header > div:last-child {
+    text-align: center;
+    margin: 20px 0;
+}
+
+header > div:last-child img {
+    max-width: 100%;
+    height: auto;
+}
+*/
+
+
+/* HALAMAN UTAMA */
+
+.background-kedai {
+    display: block;
+    margin: 10px auto
+}
+
+.utama {
+    min-height: 500px;
+    background-color: #f1d5bd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.utama h1 {
+    font-size: 45px;
+    color: #6b4226;
+}
+
+.utama h3 {
+    margin: 10px 0;
+}
+
+.utama p {
+    max-width: 600px;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.slogan {
+    font-size: 22px;
+    font-style: italic;
+    color: #8b5e3c;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 15px;
+    border-radius: 10px;   
+}
+
+.grid-item img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.grid-item h3 {
+    margin: 10px 0;
+}
+
+.grid-item p {
+    color: #666;
+}
+
+.btn-produk {
+    background-color: #6b4226;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    width: 20%;
+    text-align: center;
+}
+
+.btn-produk:hover {
+    background-color: #8b5e3c;
+}
+
+
+/* TAJUK */
+h2, h3 {
+    text-align: center;
+    color: #6b4226;
+    margin: 25px 0;
+}
+
+
+/* PERENGGAN TENTANG KAMI */
+body > p {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 20px;
+    line-height: 2;
+    text-align: justify;
+}
+
+
+/* TABLE */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #6b4226;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+table img {
+    max-width: 200px;
+    height: auto;
+}
+
+
+/* BORANG TEMPAHAN */
+form {
+    width: 500px;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+form p {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #6b4226;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+form button {
+    background-color: #6b4226;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8b5e3c;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #6b4226;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.gambar {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}

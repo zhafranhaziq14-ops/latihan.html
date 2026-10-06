@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f3;
+    color: #4b3025;
+    line-height: 2;
+}
+
+nav {
+    background-color: #8c552a;
+    color: #994d2f;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 22px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a:hover {
+    color: #9f622c;
+}
+
+/* SEMUA SECTION */
+section {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #8b5e3c;
+}
+
+/* UTAMA */
+.utama {
+    min-height: 500px;
+    background-color: #f1d5bd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.utama h1 {
+    font-size: 50px;
+    color: #6b4226;
+}
+
+.utama h3 {
+    margin: 10px 0;
+}
+
+.utama p {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #a26638;
+    color: rgb(255, 250, 250);
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #643e24;
+}
